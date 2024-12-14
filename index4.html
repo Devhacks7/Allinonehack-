@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacks Grid</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Body */
+        body {
+            background: #2b053c;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+            flex-direction: column;
+        }
+
+        /* Header Section */
+        .header h1 {
+            font-size: 2em; /* Reduced size */
+            color: #fff;
+            background: #2e0b3e;
+            display: inline-block;
+            padding: 8px 18px; /* Smaller padding */
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1em; /* Reduced size */
+            margin-bottom: 20px;
+        }
+
+        /* Telegram Button */
+        .telegram-btn {
+            display: inline-block;
+            background: #0088cc;
+            color: white;
+            padding: 10px 20px; /* Smaller padding */
+            font-size: 1em; /* Smaller font size */
+            border-radius: 50px; /* Rounder button */
+            text-decoration: none;
+            margin-bottom: 20px;
+            transition: background 0.3s;
+        }
+
+        .telegram-btn:hover {
+            background: #007bb5;
+        }
+
+        /* Grid Layout */
+        .grid-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px; /* Reduced gap */
+            padding: 10px;
+            width: 100%;
+            max-width: 900px; /* Maximum width */
+        }
+
+        /* Individual Grid Items */
+        .grid-item {
+            text-decoration: none;
+            color: white;
+            background: #3e114f;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+            width: 120px; /* Smaller size */
+            text-align: center;
+            display: flex;
+            flex-direction: column; /* Stack text and image vertically */
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .grid-item p {
+            font-size: 0.9em; /* Smaller font size */
+            padding: 8px;
+            background: #490d5b;
+            margin: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Hover Effect */
+        .grid-item:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Responsive Layout - 2 items per row */
+        @media (min-width: 600px) {
+            .grid-container {
+                justify-content: space-between;
+            }
+            .grid-item {
+                width: 180px; /* Larger size for bigger screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Telegram Join Section -->
+    <div class="header">
+        <h1>Join Telegram</h1>
+        <p>Colour Trading Hack's 🇮🇳</p>
+        <!-- Telegram Button -->
+        <a href="YOUR_TELEGRAM_LINK_HERE" class="telegram-btn" target="_blank">Join Telegram</a>
+    </div>
+
+    <!-- Grid Container -->
+    <div class="grid-container">
+        <!-- Grouping pairs vertically -->
+        <div class="grid-item">
+            <img src="BDG.png" alt="BDG Hack">
+            <p>BDG Hack</p>
+        </div>
+        <div class="grid-item">
+            <img src="91club.png" alt="91club Hack">
+            <p>91club Hack</p>
+        </div>
+        <div class="grid-item">
+            <img src="In999.png" alt="In999 Hack">
+            <p>In999 Hack</p>
+        </div>
+        <div class="grid-item">
+            <img src="51game.png" alt="51game Hack">
+            <p>51game Hack</p>
+        </div>
+        <div class="grid-item">
+            <img src="55club.png" alt="55club Hack">
+            <p>55club Hack</p>
+        </div>
+        <div class="grid-item">
+            <img src="okwin.png" alt="Okwin Hack">
+            <p>Okwin Hack</p>
+        </div>
+        <div class="grid-item">
+            <img src="tiranga.png" alt="Tiranga Hack">
+            <p>Tiranga Hack</p>
+        </div>
+        <div class="grid-item">
+            <img src="bigmumbai.png" alt="BigMumbai Hack">
+            <p>BigMumbai Hack</p>
+        </div>
+    </div>
+</body>
+</html>
